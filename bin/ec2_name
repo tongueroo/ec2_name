@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require File.expand_path("../../lib/ec2_name", __FILE__)
+Ec2Name.new.run
