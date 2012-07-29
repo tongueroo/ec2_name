@@ -15,8 +15,8 @@ Set up a ~/.br-cloud.yml that holds the aws credentials.  File should look like 
 <pre>
 $ cat ~/.br-cloud.yml
 --- 
-:aws_secret_id: XXXXXXX
-:aws_secret_key: XXXXXXXXXXXXXXXXXXXXX
+:aws_access_key_id: XXXX
+:aws_secret_access_key: XXXXXXXXXXXXXXXXXXXX
 $ 
 </pre>
 

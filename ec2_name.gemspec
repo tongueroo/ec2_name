@@ -6,7 +6,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = "ec2_name"
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Tung Nguyen"]
   s.email       = ["tongueroo@gmail.com"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = %w(lib)
   s.test_files = `cd #{root} && git ls-files -- {features,test,spec}/*`.split("\n")
 
-  s.add_dependency "right_aws"
+  s.add_dependency "aws"
 
   s.add_development_dependency "rspec", "~> 1.0"
 end

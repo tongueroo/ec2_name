@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 
-gem 'right_aws'
+gem 'aws'
 
 gemspec
